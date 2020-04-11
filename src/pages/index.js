@@ -154,11 +154,15 @@ export default () => (
         Send us an email, text or phone call for pricing and availability.
       </p>
       <p className="mt-8">
-        <a className="ml-5 mr-5" href="mailto:contact@estatecapture.com">
-          <Button size="xl">Email</Button>
+        <a href="mailto:contact@estatecapture.com">
+          <Button className="mt-5 mr-5 ml-5" size="xl">
+            Email
+          </Button>
         </a>
-        <a className="ml-5 mr-5" href="tel:(650) 318-1585">
-          <Button size="xl">Call</Button>
+        <a href="tel:(650) 318-1585">
+          <Button className="mt-5 ml-5 mr-5" size="xl">
+            Call
+          </Button>
         </a>
       </p>
     </section>
